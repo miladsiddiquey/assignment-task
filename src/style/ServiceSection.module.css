@@ -1,0 +1,11 @@
+
+.serviceCard {
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+
+.serviceCard:hover {
+    transform: scale(.9);
+   
+}
