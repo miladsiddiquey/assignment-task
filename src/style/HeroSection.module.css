@@ -1,0 +1,23 @@
+.videoCol video{
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+}
+h1{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 60px;
+    font-weight: 200;
+}
+.info{
+    position: relative;
+    z-index: 2;
+}
+
+@media (max-width: 576px) {
+    h1{
+       
+        font-size: 40px;
+        font-weight: 200;
+    }
+  }

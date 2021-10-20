@@ -1,0 +1,29 @@
+.info{
+    position: relative;
+}
+.line{
+    position: absolute;
+    top:0;
+    right:50%;
+    border:1px solid gray;
+    height: 300px;
+    
+}
+h3{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 25px;
+    font-weight: 200;
+}
+@media (max-width: 576px) {
+    .line{
+        
+        height: 200px;
+        
+    }
+    h3{
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  }
